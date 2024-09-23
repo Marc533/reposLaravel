@@ -18,7 +18,7 @@
                 <div class="mb-3">
                     <button type="reset" wire:click.prevent="cancel" class="btn btn-secondary">Annuler</button>
                     @if ($updateMode)
-                        <button type="submit" wire:click.prevent="update" class="btn btn-primary">Mettre à jour</button>
+                        <button type="submit" wire:click.prevent="update" class="btn btn-primary">Modifier</button>
                     @else
                         <button type="submit" wire:click.prevent="store" class="btn btn-primary">Enregistrer</button>
                     @endif
